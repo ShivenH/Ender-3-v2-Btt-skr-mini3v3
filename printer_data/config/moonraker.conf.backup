@@ -27,6 +27,8 @@ path: /home/pi/mainsail
 repo: mainsail-crew/mainsail
 channel: stable
 type: web
+persistent_files:
+    config.json
 
 [update_manager mainsail-config]
 managed_services: klipper
